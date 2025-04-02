@@ -3,7 +3,7 @@
  * @Author     : Wang Chao
  * @Date       : 2024-08-18 09:52
  * @LastAuthor : Wang Chao
- * @LastTime   : 2024-09-29 09:49
+ * @LastTime   : 2025-04-02 17:12
  * @desc       :
  */
 // FIXME 单选默认值
@@ -58,28 +58,29 @@ basekit.addField({
         required: true,
       },
     },
-    {
-      key: 'source',
-      label: t('source'),
-      component: FieldComponent.FieldSelect,
-      props: {
-        supportType: [
-          FieldType.DateTime,
-          FieldType.Text,
-          FieldType.Number,
-          FieldType.Url,
-          FieldType.SingleSelect,
-          FieldType.MultiSelect,
-          FieldType.Attachment,
-          FieldType.Checkbox,
-          FieldType.DateTime,
-        ],
-        placeholder: t('p1'),
-      },
-      validator: {
-        required: true,
-      },
-    },
+    // {
+    //   key: 'source',
+    //   label: t('source'),
+    //   component: FieldComponent.FieldSelect,
+    //   props: {
+    //     supportType: [
+    //       FieldType.DateTime,
+    //       FieldType.Text,
+    //       FieldType.Number,
+    //       FieldType.Url,
+    //       FieldType.SingleSelect,
+    //       FieldType.MultiSelect,
+    //       FieldType.Attachment,
+    //       FieldType.Checkbox,
+    //       FieldType.DateTime,
+    //     ],
+    //     placeholder: t('p1'),
+    //   },
+    //   validator: {
+    //     // required: true,
+    //     required: false,
+    //   },
+    // },
   ],
   // 定义捷径的返回结果类型
   resultType: {
